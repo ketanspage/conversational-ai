@@ -19,7 +19,7 @@ st.header("Gemini LLM Application")
 
 if 'flowmessages' not in st.session_state:
     st.session_state['flowmessages']=[
-        SystemMessage(content="you are a medical practitioner AI assistant")
+        SystemMessage(content="you are a helpfull AI assistant")
     ]
 
 def get_gemini_response(question):
